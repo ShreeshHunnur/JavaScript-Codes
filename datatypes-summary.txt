@@ -1,0 +1,15 @@
+Depending upon how the data is stored in the memory and how it is accessed the datatypes are classified into two types Primitive and Non primitive
+
+Primitive(Call by value) : 7 -types
+                          1) String
+                          2) Number
+                          3) Boolean
+                          4) Null
+                          5) undefined
+                          6) symbol(used for making any value   unique)
+                          7) Bigint(large Integers)
+
+Reference/Non primitive Datatypes : 1) Arrays 2) Objects 3) Functions
+
+ Javascript is a Dynamically typed programming language
+
