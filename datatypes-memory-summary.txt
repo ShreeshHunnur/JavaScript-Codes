@@ -13,3 +13,17 @@ Reference/Non primitive Datatypes : 1) Arrays 2) Objects 3) Functions
 
  Javascript is a Dynamically typed programming language
 
+ There are two types of memory. 1)Stack 2) Heap
+
+ 1) Stack is used by prmitive datatypes like string,number,....
+    in Stack directly the value is not provided but a copy of the value id provided
+    eg : let name = "shreesh"
+         let anotherName = name
+         here another name is given a copy of name and not directly the value. so if we change the value of anotherName then the value of name will not be changed. This is how stack operates in the primitive datatypes
+
+2) Heap is used by non-primitive datatypes like arrays, objects ....
+   in heap directly the reference id provided 
+   hence any change in the reference causes the original value to change.
+
+   
+
